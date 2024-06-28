@@ -1,0 +1,15 @@
+#Principal{
+    float: left;
+   width: 334;
+}
+.fila{
+float: left;
+width: 334px;
+}
+.celda{
+float: left;
+height: 60px;
+width: 60px;
+margin: 2px;
+border: solid 1px black;
+}

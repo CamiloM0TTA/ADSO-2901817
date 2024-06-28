@@ -1,0 +1,32 @@
+/*
+estilos de ejercicio con bootstrap
+autor: Andres MC
+23 de mayo de 2024
+
+
+.primero{
+    float: left;
+    display:flex;
+    flex-wrap:wrap;
+    width: 600px;
+    border: 1px solid #000;
+}
+*/
+.segundo{
+    float: left;
+    display:flex;
+    flex-wrap:nowrap;
+    width: 600px;
+    /* border: 1px solid #000; */
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.celda{
+    float: left;
+    -webkit-flex: auto;
+    flex: auto;
+    border: 1px solid #000;
+    border-radius: 15px;
+    height: 60px;
+    margin: 5px;
+}

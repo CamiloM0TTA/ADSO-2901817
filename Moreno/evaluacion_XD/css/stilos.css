@@ -1,0 +1,148 @@
+/*
+estilos de etabla periodica
+auto: CamiloMotta
+24 de mayo del 2024
+*/
+
+.primero{
+    display: flex;
+    float: auto;
+    width: 1782px;
+    margin-bottom: 2px;
+    flex-wrap: wrap;
+ 
+ }
+ .container{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ align-items: center;
+ background-color: #ffffff;
+ height: 1000px;
+ width: 2000px;
+ border-radius: 2%;
+ }
+ .fondo{
+    background-color: #91ff00da;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+    align-items: center;
+ }
+ .titulo{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;}
+    
+ .celda{
+     float: auto;
+     height: 95px;
+     margin: 2px 2px 2px 2px;
+     width: 95px;
+     border-radius: 12%;
+     background-color: #ca5cef;
+      /*background-color: rgb(180, 135, 221);*/
+      text-align: center;
+      font-family: Arial, sans-serif;
+      position: static;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+ }
+ 
+ .celda:hover{
+    transform: scale(3);
+    color: rgb(209, 163, 103);
+    transition-duration: 2s;
+    filter: contrast(1.5); 
+    box-shadow: 2px 2px 15px 0 rgb(0, 0, 0), 4px 4px 24px 0 rgb(0, 0, 0), 0px 0px 31px 2px rgb(19, 16, 25);
+ }
+ 
+ .nohower{
+    transform: scale(0);
+    transition-duration: 0;
+ }
+ 
+ .espacio1{
+    width: 1584px;
+    height: 86px; 
+ }
+ 
+ .espacio2{
+    width: 990px;
+    height: 86px; 
+ }
+ .segundo{
+     float:left ;
+     display: flex;
+     flex-wrap: wrap;
+     width: 1500px;
+     margin-left: 300px;
+     
+ }
+ 
+ .simbolo {
+    font-size: 24px;
+    font-weight: bold;
+ }
+ 
+ .nombre {
+    font-size: 10px;
+    margin-top: -25px;
+ }
+ 
+ .masa {
+    font-size: 8px;
+    margin-top: -5px;
+    /*
+    color: #ffffff; */
+ }
+ 
+ .numero{
+    position: absolute;
+            top: 0px;
+            left: 10px;
+            font-size: 12px;
+            /*
+            color: #ffffff; */
+ }
+ /* 
+ colores
+ */
+ .amarillo{
+    background-color: #fdfd96;
+ }
+ .fuccia{
+    background-color: #ff66a8;
+ }
+ .rojo{
+    background-color: #ff6961;
+ }
+ .azul{
+    background-color: #336ca5;
+ }
+ .verde{
+    background-color: #77dd77;
+ }
+ .verdeOs{
+    background-color: #2d8f2f;
+ }
+ .morado{
+    background-color: #ca5cef;
+ }
+ .celeste{
+    background-color: #84b6f4;
+ }
+ .vezul{
+    background-color: #b0f2e4;
+ }
+ .rosa{
+    background-color: #fdcae1;
+ }
+ .clasificacion{
+    position: absolute;
+    display: flex;
+ }
+ 

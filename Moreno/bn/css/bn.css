@@ -1,0 +1,12 @@
+/* Estilos para el tablero */
+.bingo-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+/* Estilos para las celdas del cartón */
+.cell {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
